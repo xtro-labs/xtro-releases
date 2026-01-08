@@ -16,17 +16,9 @@ Xtro comprises three integrated components:
 
 ```mermaid
 flowchart LR
-    subgraph Your Devices
-        iOS[XtroiOS]
-        Mac[XtroMac]
-        VS[VS Code]
-    end
-
-    Relay[xtro-relay]
-
-    iOS <-->|WebSocket| Relay
-    Mac <-->|WebSocket| Relay
-    Mac <-->|Local :8765| VS
+    iOS[XtroiOS] <-->|WebSocket| Relay[xtro-relay]
+    Mac[XtroMac] <-->|WebSocket| Relay
+    Mac <-->|Local :8765| VS[VS Code]
 ```
 
 ## Why the Relay Server Exists
