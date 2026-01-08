@@ -1,0 +1,66 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Xtro",
+  "colors": {
+    "primary": "#5C8600",
+    "light": "#CCFF00",
+    "dark": "#5C8600"
+  },
+  "favicon": "/favicon.ico",
+  "navigation": {
+    "anchors": [
+      {
+        "anchor": "Documentation",
+        "icon": "book-open",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "introduction",
+              "how-it-works"
+            ]
+          },
+          {
+            "group": "Self-Hosting",
+            "pages": [
+              "self-hosting/relay-server"
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "GitHub",
+          "href": "https://github.com/xtro-labs",
+          "icon": "github"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Download",
+        "href": "https://xtro.dev"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Get Started",
+      "href": "https://xtro.dev"
+    }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/xtro-labs",
+      "twitter": "https://twitter.com/xtrodev"
+    }
+  }
+}
