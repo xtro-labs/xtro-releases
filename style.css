@@ -1,7 +1,4 @@
 /* Hide Mermaid diagram controls */
-.mermaid-controls,
-[class*="mermaid"] button,
-[class*="mermaid"] [class*="control"],
-[class*="viewer-control"] {
+.absolute.bottom-2.right-2.z-10.grid.grid-cols-3.gap-1 {
   display: none !important;
 }
