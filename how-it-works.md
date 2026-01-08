@@ -15,19 +15,19 @@ Xtro comprises three integrated components:
 3. **Relay Server** - Connects your Mac and iPhone across networks by routing messages between paired devices
 
 ```
-┌─────────────┐                            ┌─────────────┐
-│   XtroiOS   │◄───── WebSocket (cloud) ──►│             │
-└─────────────┘                            │ xtro-relay  │
-                                           │             │
-┌─────────────┐                            │             │
-│   XtroMac   │◄───── WebSocket (cloud) ──►│             │
-└──────┬──────┘                            └─────────────┘
-       │
-       │ Local WebSocket (port 8765)
-       ▼
-┌─────────────┐
-│   VS Code   │
-└─────────────┘
+┌──────────┐                    ┌────────────┐
+│ XtroiOS  │◄── WebSocket ─────►│            │
+└──────────┘                    │xtro-relay  │
+                                │            │
+┌──────────┐                    │            │
+│ XtroMac  │◄── WebSocket ─────►│            │
+└────┬─────┘                    └────────────┘
+     │
+     │ Local (port 8765)
+     ▼
+┌──────────┐
+│ VS Code  │
+└──────────┘
 ```
 
 ## Why the Relay Server Exists
