@@ -1,0 +1,7 @@
+/* Hide Mermaid diagram controls */
+.mermaid-controls,
+[class*="mermaid"] button,
+[class*="mermaid"] [class*="control"],
+[class*="viewer-control"] {
+  display: none !important;
+}
