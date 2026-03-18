@@ -3,7 +3,6 @@ title: Introduction
 description: The world's first cross-device IDE front-end
 ---
 
-# Xtro
 
 **Start coding on your Mac, continue on your iPhone — exactly where you left off.**
 
