@@ -3,10 +3,6 @@ title: Quick Start
 description: Get up and running with Xtro in under 5 minutes
 ---
 
-# Quick Start
-
-Get Xtro running across your Mac and iPhone. The whole setup takes about 5 minutes.
-
 ## Requirements
 
 - **macOS 15** Sequoia or later
