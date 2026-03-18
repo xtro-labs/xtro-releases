@@ -3,7 +3,6 @@ title: Relay Server
 description: Run your own Xtro relay server
 ---
 
-# Self-Hosting the Relay Server
 
 For those who want complete control over their data, you can run your own Xtro relay server.
 
