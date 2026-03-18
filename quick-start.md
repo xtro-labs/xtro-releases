@@ -12,30 +12,36 @@ Get Xtro running across your Mac and iPhone. The whole setup takes about 5 minut
 - **macOS 15** Sequoia or later
 - **iOS 18** or later
 - A VS Code-compatible editor (VS Code, Cursor, Windsurf, Trae, Kiro, etc.)
-- An Xtro account
+- An active Xtro subscription
+
+---
+
+## 1. Create Your Account & Subscribe
+
+Head to the [Xtro Dashboard](https://app.xtro.dev/dashboard) and create an account. You'll need an active subscription before using Xtro on any device — choose a plan that works for you.
 
 ---
 
 ## Mac Setup
 
-### 1. Install XtroMac
+### 2. Install XtroMac
 
-Download the latest Mac app from your [Xtro Dashboard](https://app.xtro.dev/dashboard). Open the `.dmg`, drag to Applications, and launch it. Sign in or create an account.
+Download the latest Mac app from your [Xtro Dashboard](https://app.xtro.dev/dashboard). Open the `.dmg`, drag to Applications, and launch it. Sign in with your account.
 
-### 2. Install the IDE Extension
+### 3. Install the IDE Extension
 
 XtroMac automatically scans `/Applications` for VS Code forks, it reads each editor's `product.json` to identify Cursor, Windsurf, Positron, Trae, Kiro, and others. You'll see a list of detected editors with checkboxes. Check the ones you want, and XtroMac installs the Xtro extension into each.
 
 Restart your editor(s) after installation.
 
-### 3. Verify the Connection
+### 4. Verify the Connection
 
 Look for the **Xtro** button in the bottom-right of your editor's status bar:
 
 - **Green**, connected to XtroMac
 - **Orange**, disconnected (make sure XtroMac is running)
 
-### 4. Create Your First Session
+### 5. Create Your First Session
 
 Click the Xtro status bar button in your editor. This opens a new terminal session that's synced through Xtro, accessible from your iPhone once paired.
 
@@ -43,15 +49,11 @@ Click the Xtro status bar button in your editor. This opens a new terminal sessi
 
 ## iPhone Setup
 
-### 1. Install XtroiOS
+### 6. Install XtroiOS
 
 Download **Xtro** from your [Xtro Dashboard](https://app.xtro.dev/dashboard) (it links to the App Store). Sign in with the same account you used on your Mac.
 
-### 2. Subscribe
-
-Xtro requires an active subscription. You'll be prompted to subscribe on first launch.
-
-### 3. Pair Your Devices
+### 7. Pair Your Devices
 
 On your Mac, click the Xtro menu bar icon and select **"Pair Device..."**. A QR code appears. Scan it with your iPhone's camera (or from within the Xtro iOS app). Once paired, the **Conversations** list populates with your active terminal sessions.
 
