@@ -1,4 +1,7 @@
-# How Xtro Works
+---
+title: How It Works
+description: Xtro's architecture and security model
+---
 
 Xtro lets you code on your Mac and continue on your iPhone. But how does your terminal session get from one device to another? This page explains the architecture and security model.
 
