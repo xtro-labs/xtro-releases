@@ -45,7 +45,35 @@
     "options": [
       "copy",
       "view",
-      "claude"
+      "claude",
+      {
+        "title": "Share on X",
+        "description": "Share this page on X",
+        "icon": "x",
+        "href": {
+          "base": "https://x.com/intent/tweet",
+          "query": [
+            {
+              "key": "text",
+              "value": "Check out this documentation: $page"
+            }
+          ]
+        }
+      },
+      {
+        "title": "Share on Reddit",
+        "description": "Share this page on Reddit",
+        "icon": "reddit",
+        "href": {
+          "base": "https://reddit.com/submit",
+          "query": [
+            {
+              "key": "url",
+              "value": "$page"
+            }
+          ]
+        }
+      }
     ]
   },
   "logo": {
